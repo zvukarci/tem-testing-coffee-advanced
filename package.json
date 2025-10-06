@@ -1,18 +1,23 @@
 {
-  "name": "coffee-machine-kata",
+  "name": "coffee-machine-advanced",
   "version": "1.0.0",
-  "description": "Coffee Machine Kata - inspired by Gilded Rose",
-  "main": "index.js",
+  "description": "Advanced Coffee Machine Kata with AAA, mocks, errors, and integration tests",
+  "license": "MIT",
   "scripts": {
     "test": "jest",
-    "fixture": "ts-node fixture.ts"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
-  "author": "Attila Kerekes",
-  "license": "ISC",
+  "type": "module",
   "devDependencies": {
-    "@types/jest": "^27.0.3",
-    "jest": "^27.3.1",
-    "ts-jest": "^27.0.7",
-    "ts-node": "^10.4.0"
+    "@types/jest": "^29.5.14",
+    "@types/node-fetch": "^2.6.13",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
   }
 }

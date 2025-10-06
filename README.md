@@ -1,7 +1,17 @@
-# Coffee Machine Kata
+# Coffee Machine Advanced Kata
 
-See specification.txt
+Advanced version of the Coffee Machine kata used for teaching **advanced unit testing techniques**.
 
-Run tests:
+## What you'll practice
+- AAA pattern everywhere
+- Testing errors with `toThrow`
+- Mocking & verifying calls with `jest.fn`
+- Resetting mocks with `beforeEach` / `jest.clearAllMocks`
+- Acceptable duplication in tests vs helper functions
+- Integration-like scenarios (combining rules)
 
-    npm run test
+## Run
+```bash
+npm install
+npm test
+```

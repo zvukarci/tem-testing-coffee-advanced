@@ -1,0 +1,3 @@
+describe('CoffeeMachine notifications (mocks)', () => {
+
+});
