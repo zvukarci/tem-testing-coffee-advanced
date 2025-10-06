@@ -1,6 +1,3 @@
-import { CoffeeMachine } from '../src/coffeeMachine';
-import { Drink } from '../src/drink';
-
 describe('CoffeeMachine basic', () => {
   it('serves small coffee with exact money', () => {
 
